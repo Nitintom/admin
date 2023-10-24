@@ -1,0 +1,130 @@
+/* AdminHospitals.css */
+
+/* Styling for the admin panel container */
+.admin-panel-container {
+  margin-top: 5rem;
+}
+
+/* Styling for the loading message */
+.loading {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+/* Styling for the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+/* Styling for table headers */
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  text-align: left;
+  padding: 0.5rem 1rem;
+}
+
+/* Styling for table data rows */
+tr {
+  border-bottom: 1px solid #e1e1e1;
+}
+
+/* Styling for table data cells */
+td {
+  padding: 0.5rem 1rem;
+}
+
+/* Styling for update button */
+.admin-btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+/* Styling for the update modal */
+.modal {
+  display: block;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1050;
+  overflow: hidden;
+  outline: 0;
+  color: black;
+}
+
+/* .modal-dialog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+} */
+
+.modal-content {
+  max-width: 600px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  color: black;
+}
+
+.modal-header {
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  /* padding: 0.5rem 0; */
+}
+
+.modal-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: black;
+}
+
+/* .close {
+  font-size: 1.25rem;
+  cursor: pointer;
+} */
+
+.modal-body {
+  /* padding: 1rem 0; */
+  color: white;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  color: black;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"] {
+  /* width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px; */
+  color: black;
+}
+
+.modal-footer {
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* padding: 1rem 0; */
+}
+.form-control01 {
+  color: white;
+}
+.tbody {
+  color: white;
+}

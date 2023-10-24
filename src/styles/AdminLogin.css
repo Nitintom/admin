@@ -1,0 +1,51 @@
+.container020 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90%;
+}
+
+/* Style the form elements */
+.Adminform {
+  width: 500px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: black;
+}
+.Adminloginheading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.labelAdmin {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.AdminInputText,
+.AdminInputpassword {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.AdminLoginbtn {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.AdminLoginbtn:hover {
+  background-color: #0056b3;
+}
